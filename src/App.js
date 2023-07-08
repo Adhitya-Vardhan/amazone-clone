@@ -1,10 +1,12 @@
 import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1> hello programmers lets build the amazone storageBucket</h1>
-      {/*HEADER*/}
+      <Header />
+      <Home />
     </div>
   );
 }
